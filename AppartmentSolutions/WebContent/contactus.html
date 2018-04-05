@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+      <link rel="stylesheet" href="css/css2/style1.css">  
+      
+      
+</head>
+<body>
+
+
+  <div class="wrapper" >
+  <input type="checkbox" id="menuToggler" class="input-toggler" value="1" autofocus="true"/>
+  <label for="menuToggler" id="menuTogglerLabel" class="menu-toggler" role="button" aria-pressed="false" aria-expanded="false" aria-label="Navigation button">
+    <span class="menu-toggler__line"></span>
+    <span class="menu-toggler__line"></span>
+    <span class="menu-toggler__line"></span>
+  </label>
+  <nav id="sidebar" class="sidebar" role="navigation" aria-labelledby="menuTogglerLabel" aria-hidden="true">
+    <ul id="menubar" class="menu" role="menubar" aria-orientation="vertical">
+      <li class="menu__item" role"none"><a class="menu__link" href="Home.html" role="menuitem" tabindex="-1">Home</a></li>
+      <li class="menu__item" role"none"><a class="menu__link" href="about.jsp" role="menuitem" tabindex="-1">About</a></li>
+      <li class="menu__item" role"none"><a class="menu__link" href="./WEB-INF/contactus.html" role="menuitem" tabindex="-1">Contact us</a></li>
+      <li class="dropdown" role"none"><a class="menu__link" href="#" role="menuitem" tabindex="-1">Logins</a>
+	 <div class="dropdown-content" id="myDropdown">
+      <a href="AdminLogin.jsp">Admin</a>
+	  <a href="Userlogin.jsp">User</a> </li>
+      
+    </ul>
+  </nav>
+  <main class="content">
+    <h1>Appartment Solutions</h1>
+    <p>Have problems in your Appartment,Don't Worry we are here to solve it.</p>
+  </main>
+  
+  
+</div>
+
+
+<a class="sb-link" href="" style="background-color:FloralWhite">Copyrights@ Neeleshkumarreddypelli</a>
+    <script src="js/index.js"></script>
+    
+    
+    
+</body>
+
+
+</html>
